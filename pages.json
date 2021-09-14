@@ -5,8 +5,69 @@
 			"style": {
 				"navigationBarTitleText": "uni-app"
 			}
+		},
+		{
+			"path": "pages/question/question",
+			"style": {
+				"navigationBarTitleText": "question"
+			}
+		},
+		{
+			"path": "pages/user/user",
+			"style": {
+				"navigationBarTitleText": "user"
+			}
+		},
+		{
+			"path": "pages/recommend/recommend",
+			"style": {
+				"navigationBarTitleText": "recommend"
+			}
+		},
+		{
+			"path": "pages/recommend/recommend",
+			"style": {
+				"navigationBarTitleText": "recommend"
+			}
 		}
 	],
+	"tabBar": {
+		"color": "#8a8a8a",
+		"selectedColor": "#d4237a",
+		"borderStyle": "black",
+		"backgroundColor": "#ffffff",
+		"list": [{
+			"pagePath": "pages/index/index",
+			"text": "首页",
+			"iconPath": "static/home_normal.png",
+			"selectedIconPath": "static/home.png"
+		    },
+			{
+				"pagePath": "pages/recommend/recommend",
+				"text": "推荐",
+				"iconPath": "static/home_normal.png",
+				"selectedIconPath": "static/home.png"
+			},
+			{
+				"pagePath": "pages/collect/collect",
+				"text": "收藏",
+				"iconPath": "static/home_normal.png",
+				"selectedIconPath": "static/home.png"
+			},
+			{
+				"pagePath": "pages/question/question",
+				"text": "问答",
+				"iconPath": "static/home_normal.png",
+				"selectedIconPath": "static/home.png"
+			}, 
+			{
+				"pagePath": "pages/user/user",
+				"text": "我的",
+				"iconPath": "static/home_normal.png",
+				"selectedIconPath": "static/home.png"
+			}	
+		]
+	},
 	"globalStyle": {
 		"navigationBarTextStyle": "black",
 		"navigationBarTitleText": "uni-app",
