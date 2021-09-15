@@ -19,9 +19,9 @@
 			}
 		},
 		{
-			"path": "pages/recommend/recommend",
+			"path": "pages/collect/collect",
 			"style": {
-				"navigationBarTitleText": "recommend"
+				"navigationBarTitleText": "collect"
 			}
 		},
 		{
@@ -33,38 +33,38 @@
 	],
 	"tabBar": {
 		"color": "#8a8a8a",
-		"selectedColor": "#d4237a",
+		"selectedColor": "#5555ff",
 		"borderStyle": "black",
 		"backgroundColor": "#ffffff",
 		"list": [{
 			"pagePath": "pages/index/index",
 			"text": "首页",
-			"iconPath": "static/home_normal.png",
-			"selectedIconPath": "static/home.png"
+			"iconPath": "static/image/edit2x.png",
+			"selectedIconPath": "static/image/edit-hover2x.png"
 		    },
 			{
 				"pagePath": "pages/recommend/recommend",
 				"text": "推荐",
-				"iconPath": "static/home_normal.png",
-				"selectedIconPath": "static/home.png"
+				"iconPath": "static/image/edit2x.png",
+				"selectedIconPath": "static/image/edit-hover2x.png"
 			},
 			{
 				"pagePath": "pages/collect/collect",
-				"text": "收藏",
-				"iconPath": "static/home_normal.png",
-				"selectedIconPath": "static/home.png"
+				"text": "添加",
+				"iconPath": "static/image/edit2x.png",
+				"selectedIconPath": "static/image/edit-hover2x.png"
 			},
 			{
 				"pagePath": "pages/question/question",
 				"text": "问答",
-				"iconPath": "static/home_normal.png",
-				"selectedIconPath": "static/home.png"
+				"iconPath": "static/image/edit2x.png",
+				"selectedIconPath": "static/image/edit-hover2x.png"
 			}, 
 			{
 				"pagePath": "pages/user/user",
 				"text": "我的",
-				"iconPath": "static/home_normal.png",
-				"selectedIconPath": "static/home.png"
+				"iconPath": "static/image/edit2x.png",
+				"selectedIconPath": "static/image/edit-hover2x.png"
 			}	
 		]
 	},
